@@ -1,20 +1,23 @@
 header {
   text-align: center;
   background-color: #aba85d;
+  width: 100%;
 }
 
 nav {
-  width: 30%;
-  display: inline-block;
+  width: 20%;
+  border: 5px solid green;
+  float: right;
 }
 
 main {
-  width: 70%;
-  display: block;
-  margin: 0 auto;
-
+  padding-left: 5%;
+  padding-right: 2%;
+  border: 5px solid red;
+  margin-right: 20%;
 }
 
 footer {
+  width: 100%;
   text-align: center;
 }
