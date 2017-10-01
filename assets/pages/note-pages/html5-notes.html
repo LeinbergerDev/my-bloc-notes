@@ -21,24 +21,55 @@
       <li><a href="mac-terminal-notes.html"> Mac Terminal</a></li>
     </ul>
   </nav>
-  <aside>
-    <h3>Document Structure Tags</h3>
-    <ul class="tag-list">
-      <li>&lt;DOCTYPE html&gt;</li>
-      <li>&lt;html&gt;</li>
-      <li>&lt;head&gt;</li>
-      <li>&lt;title&gt; &lt;/title&gt;</li> 
-      <li>&lt;/html&gt;</li>
-  </aside>
+  <section class="row">
+      <aside>
+        <h3>Document Structure Tags</h3>
+        <ul class="tag-list">
+          <li>&lt;DOCTYPE html&gt;</li>
+          <li>&lt;html&gt;</li>
+          <li>&lt;head&gt;</li>
+          <li>&lt;title&gt; &lt;/title&gt;</li>
+          <li>&lt;/html&gt;</li>
+        </ul>
+      </aside>
   <main class="notes-content">
     <article>
       <h2>HTML5 Document Structure</h2>
+      <h3>HyperText Markup Language</h3>
       <p>All HTML documents should have the same basic sructure.  They should all start with a &lt;!DOCTYPE html&gt; tag that identifies
         that this document is fomated in HTML5. Next comes the &lt;html&gt; tag.  This is the root tag of the document and all other
-      tags should within it.  </p>
+      tags should within it. Next there is the &lt;head&gt; tag.  This is where the &lt;title&gt;, &lt;meta&gt;, &lt;script&gt; and &lt;link&gt; will be found.  This area is not actually
+    displayed by the browser. The &lt;title&gt; controls what the browser displays in the browser tab.  The &lt;meta&gt; allows the user to create meta tags for the site. <a href="#meta-tag-list">See meta tag list</a>.
+  The &lt;link&gt; tag allows us to add a link to a document.  This is commonly used to add a CSS styles sheet to the document. <a href="#link-tag-syntax">See Link Tag</a> for details. The &lt;script&gt; is used to
+import script files into the document.  <a href="#script-tag">See script tag</a> for more details.</p>
 
+
+    <section id="meta-tag-list">
+      <h3>Meta tags</h3>
+      <dl>
+        <dt>&lt;meta charset="UTF-8"&gt;</dt>
+        <dd>Sets the character set for the document.</dd>
+        <dt>&lt;meta name="description" content="Notes on HTML5 from bloc training course and my own suplimental research."&gt;</dt>
+        <dd>Adds a description for the content of the document.  Search engines use this tag to find out what the page is about.</dd>
+        <dt>&lt;meta name="keywords" content="HTML5"&gt;</dt>
+        <dd>Adds keywords to tell the search engine what the content of the page is about.</dd>
+        <dt>&lt;meta name="author" content="Jason Leinberger"&gt;</dt>
+        <dd>Name of the person who created the document.</dd>
+        <dt>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</dt>
+        <dd>Sets the initial size of the viewport </dd>
+      </dl>
+    </secion>
+    <section id="link-tag-syntax">
+      <h3>Link Tag Syntax</h3>
+      <p>&lt;link href="path to .css file" rel="stylesheet"&gt;</p>
+    </section>
+    <section id="script-tag">
+      <h3>Script Tag Syntax</h3>
+      <p>&lt;script src="path to .js file"&gt;&lt;/script&gt;</p>
+    </section>
     </article>
   </main>
+</section>
   <footer>
   </footer>
 </body>

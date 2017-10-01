@@ -26,23 +26,8 @@ nav h3 {
   font-size: 20px;
 }
 
-main {
-  padding-left: 5%;
-  padding-right: 2%;
-  border: 5px solid red;
-  margin-right: 20%;
-}
-
 footer {
   width: 100%;
-  text-align: center;
-}
-aside {
-  float: right;
-  width: 25%;
-}
-
-aside h3 {
   text-align: center;
 }
 
@@ -80,6 +65,21 @@ aside h3 {
 }
 
 .notes-content {
+
+}
+
+.row {
   width: 100%;
-  padding: 0 2%;
+  border: 5px solid pink;
+}
+
+.row main {
+  margin: 0 2% 0 2%;
+  padding-right: 2%;
+  width: 85%;
+}
+
+.row aside {
+  float: right;
+  width: 15%;
 }
